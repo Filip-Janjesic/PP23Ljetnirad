@@ -1,4 +1,5 @@
-<?php require_once 'konfiguracija.php'; 
+<?php 
+require_once 'konfiguracija.php'; 
 if(isset($_SESSION['autoriziran'])){
     header('location:' . $putanjaAplikacije . 'privatno/nadzornaploca.php');
     exit;
