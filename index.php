@@ -1,29 +1,19 @@
-<?php 
-require_once 'konfiguracija.php'; 
-if(isset($_SESSION['autoriziran'])){
-    header('location:' . $putanjaAplikacije . 'privatno/nadzornaploca.php');
-    exit;
-}
-?>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php require_once 'predlozak/head.php'; ?>
-</head>
-<body>
-    <div class="grid-container">
-        <?php require_once 'predlozak/izbornik.php'; ?>
-        <div class="callout pocetna">
-            <form action="<?php echo $putanjaAplikacije; ?>autorizacija.php" method="post">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
-                <label for="lozinka">Lozinka</label>
-                <input type="password" name="lozinka" id="lozinka">
-                <input type="submit" value="Logiraj se">
-            </form>
-        </div>
-        <?php require_once 'predlozak/podnozje.php'; ?>
-    </div>
-    <?php require_once 'predlozak/javascript.php'; ?>
-</body>
+<html>
+    <head>
+        <title>Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <center>
+            <div class="floating-box">
+                <form name="form1" method="post" action="login/run">
+                <label for="uname">User Name</label>
+                    <input type="text" id="user_name" name="user_name"><br><br>
+                <label for="pwd">Password</label>
+                    <input type="password" id="password" name="password"><br><br>
+                    <input name="submit" type="submit" id="submit" value="Login"><br>
+    <p>New User <a href="signup.php">Register Here</a></p>
+        </center>
+    </body>
 </html>
