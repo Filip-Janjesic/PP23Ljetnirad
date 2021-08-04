@@ -24,11 +24,23 @@
       <li class="menu-text">OPG planer</li>
       <a href="../index.php">Početna</a>
       <li class="has-submenu">
-        <a href="#0">Usluge</a>
+        <a href="#0">Skladište</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="#0">Punjenje klima</a></li>
-          <li><a href="#0">Mehanika</a></li>
-          <li><a href="#0">Autoelektrika/Diagnostika</a></li>
+            <li class="has-submenu">
+            <a href="#0">Mehanizacija</a>
+            <ul class="submenu menu vertical" data-submenu>
+                <li><a href="#0">Vučeni strojevi</a></li>
+                <li><a href="#0">Nošeni strojevi</a></li>
+                <li><a href="#0">Samohodni strojevi</a></li>
+                <li><a href="#0">Alat i ručno oruđe</a></li>
+        </ul>
+          <li><a href="#0">Kultura</a></li>
+          <li><a href="#0">Sredstva</a></li>
+          </ul>
+      <li class="has-submenu">
+        <a href="#0">Radna snaga</a>
+        <ul class="submenu menu vertical" data-submenu>
+            <li><a href="#0">Radnici</a></li>
         </ul>
       </li>
       <li><a href="../klijent/klijentP.php">Korisnik</a></li>
