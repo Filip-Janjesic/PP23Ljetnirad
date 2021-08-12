@@ -1,4 +1,5 @@
 # PP23Ljetnirad
+
 Ljetni rad - planer za OPG
 
 - [ ] Za razvoj aplikacije se koristi Foundation RWD framework
