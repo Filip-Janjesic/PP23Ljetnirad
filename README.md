@@ -1,9 +1,9 @@
 # PP23Ljetnirad
 Ljetni rad - planer za OPG
 
-[] Za razvoj aplikacije se koristi Foundation RWD framework
+- [ ] Za razvoj aplikacije se koristi Foundation RWD framework
 
-[x] Aplikacija mora imati javni i privatni dio
+- [ ] Aplikacija mora imati javni i privatni dio
 
 [ ] Aplikacija mora biti prilagodljiva minimalno dvoje različitim širinama zalona (RWD) - sadržaj mora biti čitljiv, vidljiv, dobro organiziran za obje širine zaslona
 
