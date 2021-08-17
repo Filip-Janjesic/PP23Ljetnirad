@@ -2,7 +2,7 @@
 
 Ljetni rad - planer za OPG
 
-- [x] Za razvoj aplikacije se koristi Foundation RWD framework
+- [ ] Za razvoj aplikacije se koristi Foundation RWD framework
 
 - [ ] Aplikacija mora imati javni i privatni dio
 
@@ -10,7 +10,7 @@ Ljetni rad - planer za OPG
 
 - [ ] Autorizacija se izvršava na osnovu podataka u php datoteci (Podatci spremljeni u databazu)
 
-- [x] Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje
+- [ ] Na stranici autorizacije postaviti minimalno 2 korisnika i lozinke za spajanje
 
 - [ ] Privatni dio mora omogućiti CRUD - unos, čitanje, promjenu i brisanje svih podataka na jedan entitet Vašeg završnog rada koja nije vezana u nekim drugim tablicama vanjskim ključem. Podaci se pohranjuju u Session. (Korištena databaza).
 
